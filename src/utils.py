@@ -76,7 +76,6 @@ def plot_roc_curve(y_true , y_pred , label=None, save=True):
     plt.axis([0, 1, 0, 1])
     plt.xlabel('False Positive Rate')
     plt.ylabel('True Positive Rate')
-    plt.legend(loc="upper left")
     plt.savefig(save, dpi=300, bbox_inches='tight')
 
     plt.show()
